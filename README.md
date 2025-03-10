@@ -14,13 +14,13 @@ This project involves conducting penetration testing on the Metasploitable2 virt
 
 ## 📊 Vulnerabilities Discovered
 
-### 🔍 **Web Vulnerabilities (Nikto Scan)**
+### **Web Vulnerabilities (Nikto Scan)**
 | **Vulnerability** | **CWE ID** | **Description** | **Risk Level** |
 |------------------|-----------|----------------|---------------|
 | **Clickjacking** | CWE-1021 | X-Frame-Options header missing, allowing UI redress attacks. | Medium |
 | **Directory Browsing** | - | Allows browsing of sensitive files that attackers can access. | Medium |
 
-### 🔍 **Network Vulnerabilities (OpenVAS Scan)**
+### **Network Vulnerabilities (OpenVAS Scan)**
 | **Vulnerability** | **CVE ID** | **Description** | **Risk Level** |
 |------------------|-----------|----------------|---------------|
 | **DistCC Remote Code Execution (RCE)** | CVE-2004-2687 | Attackers can execute arbitrary commands remotely. | High |
