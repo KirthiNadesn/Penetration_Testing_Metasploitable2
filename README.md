@@ -21,6 +21,25 @@ This project involves conducting penetration testing on the Metasploitable2 virt
 - **vsftpd 2.3.4 Backdoor (CVE-2011-2523)**: Backdoor allowing root access.
 - **OpenSSL MITM Attack (CVE-2014-0224)**: SSL/TLS vulnerability allowing traffic interception.
 
+
+## 📊 Vulnerabilities Discovered
+### 🔍 **Web Vulnerabilities (Nikto Scan)**
+| **Vulnerability** | **Description** | **Risk Level** |
+|------------------|----------------|---------------|
+| **Clickjacking (CWE-1021)** | X-Frame-Options header missing, allowing UI redress attacks. | Medium |
+| **Directory Browsing** | Allows browsing of sensitive files that attackers can access. | Medium |
+
+### 🔍 **Network Vulnerabilities (OpenVAS Scan)**
+| **Vulnerability** | **CVE ID** | **Description** | **Risk Level** |
+|------------------|-----------|----------------|---------------|
+| **DistCC Remote Code Execution (RCE)** | CVE-2004-2687 | Attackers can execute arbitrary commands remotely. | High |
+| **vsftpd 2.3.4 Backdoor** | CVE-2011-2523 | Backdoor in vsftpd allows unauthorized root access. | Critical |
+| **OpenSSL MITM Attack** | CVE-2014-0224 | SSL/TLS vulnerability allowing encrypted traffic interception. | High |
+
+---
+
+
+
 ## Exploitation Demonstrations
 ### **1. Exploiting vsftpd 2.3.4 Backdoor**
 ```bash
