@@ -69,7 +69,7 @@ To mitigate these vulnerabilities, the following security measures should be imp
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 Penetration-Testing-Metasploitable2/
 │── README.md  # Project Documentation
 │── Final_MetasplotableReport.pdf  # Full project report
@@ -81,7 +81,7 @@ Penetration-Testing-Metasploitable2/
 │   ├── metasploit_vsftpd_exploit.rc
 
 
-## 📜 Resources
+## Resources
 Here are some useful resources for further learning:
 
 - 📌 [Metasploitable2 VM](https://sourceforge.net/projects/metasploitable/)
