@@ -47,4 +47,47 @@ set LHOST <Attacker_IP>
 exploit
 whoami  # Confirms access
 
+## 🔐 Security Recommendations
+To mitigate these vulnerabilities, the following security measures should be implemented:
+
+### For Web Vulnerabilities:
+✅ Enable X-Frame-Options to protect against clickjacking.  
+✅ Disable directory listing in Apache/Nginx configurations.  
+✅ Implement Content Security Policy (CSP) to control how resources are loaded.  
+
+### For Network Vulnerabilities:
+✅ Patch vsftpd 2.3.4 to the latest version.  
+✅ Disable unused services like DistCC to minimize attack surface.  
+✅ Use strong encryption (TLS 1.2/1.3) instead of outdated OpenSSL versions.  
+
+### General Recommendations:
+✅ Use a Web Application Firewall (WAF).  
+✅ Regularly scan for vulnerabilities using OpenVAS and Nikto.  
+✅ Implement strict access controls and monitoring.  
+
+---
+
+## 📂 Project Structure
+Penetration-Testing-Metasploitable2/
+│── README.md  # Project Documentation
+│── Final_MetasplotableReport.pdf  # Full project report
+│── screenshots/
+│   ├── nikto_scan.png
+│   ├── openvas_results.png
+│   ├── metasploit_exploit.png
+│── scripts/
+│   ├── metasploit_vsftpd_exploit.rc
+
+
+## 📜 Resources
+Here are some useful resources for further learning:
+
+- 📌 [Metasploitable2 VM](https://sourceforge.net/projects/metasploitable/)
+- 📌 [Kali Linux](https://www.kali.org/)
+- 📌 [Metasploit Framework](https://www.rapid7.com/products/metasploit/)
+- 📌 [Nikto Web Scanner](https://cirt.net/nikto2)
+- 📌 [OpenVAS Scanner](https://www.openvas.org/)
+
+
+
 
