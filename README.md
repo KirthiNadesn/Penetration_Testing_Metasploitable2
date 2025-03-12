@@ -12,7 +12,7 @@ This project involves conducting penetration testing on the Metasploitable2 virt
 - **Nmap**: Network scanner.
 
 
-## 📊 Vulnerabilities Discovered
+## Vulnerabilities Discovered
 
 ### **Web Vulnerabilities (Nikto Scan)**
 | **Vulnerability** | **CWE ID** | **Description** | **Risk Level** |
@@ -29,7 +29,7 @@ This project involves conducting penetration testing on the Metasploitable2 virt
 
 ---
 
-## 💻 Exploitation Demonstrations
+## Exploitation Demonstrations
 ### **1️⃣ Exploiting vsftpd 2.3.4 Backdoor**
 ```bash
 msfconsole
@@ -49,7 +49,7 @@ whoami  # Confirms access
 
 ```
 
-## 🔐 Security Recommendations
+## Security Recommendations
 To mitigate these vulnerabilities, the following security measures should be implemented:
 
 ### For Web Vulnerabilities:
@@ -67,28 +67,16 @@ To mitigate these vulnerabilities, the following security measures should be imp
 ✅ Regularly scan for vulnerabilities using OpenVAS and Nikto.  
 ✅ Implement strict access controls and monitoring.  
 
----
-
-## Project Structure
-Penetration-Testing-Metasploitable2/
-│── README.md  # Project Documentation
-│── Final_MetasplotableReport.pdf  # Full project report
-│── screenshots/
-│   ├── nikto_scan.png
-│   ├── openvas_results.png
-│   ├── metasploit_exploit.png
-│── scripts/
-│   ├── metasploit_vsftpd_exploit.rc
 
 
 ## Resources
 Here are some useful resources for further learning:
 
-- 📌 [Metasploitable2 VM](https://sourceforge.net/projects/metasploitable/)
-- 📌 [Kali Linux](https://www.kali.org/)
-- 📌 [Metasploit Framework](https://www.rapid7.com/products/metasploit/)
-- 📌 [Nikto Web Scanner](https://cirt.net/nikto2)
-- 📌 [OpenVAS Scanner](https://www.openvas.org/)
+- [Metasploitable2 VM](https://sourceforge.net/projects/metasploitable/)
+- [Kali Linux](https://www.kali.org/)
+- [Metasploit Framework](https://www.rapid7.com/products/metasploit/)
+- [Nikto Web Scanner](https://cirt.net/nikto2)
+- [OpenVAS Scanner](https://www.openvas.org/)
 
 
 
