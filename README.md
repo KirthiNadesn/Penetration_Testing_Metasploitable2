@@ -77,6 +77,7 @@ Here are some useful resources for further learning:
 - [Metasploit Framework](https://www.rapid7.com/products/metasploit/)
 - [Nikto Web Scanner](https://cirt.net/nikto2)
 - [OpenVAS Scanner](https://www.openvas.org/)
+- - 📄 **Full Report on Notion:** [Penetration Testing Project](https://www.notion.so/Penetration-Testing-Project-1ba7c5d196f480f59b86e51ecca04799?pvs=4)  
 
 
 
